@@ -1,0 +1,15 @@
+.link_button {
+    padding: 12px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.link_button:hover {
+    color: #fff;
+    background-color: #6affa4;
+}
