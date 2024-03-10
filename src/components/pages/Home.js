@@ -12,7 +12,7 @@ function Home () {
 
     useEffect(() => {
         
-        fetch('http://localhost:5000/Categories', {
+        fetch('http://localhost:5000/categories', {
         method: "GET",
         headers: {
             'Content-Type': 'application/json'

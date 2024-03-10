@@ -1,0 +1,44 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 40px 0px;
+}
+
+.box_ingredient {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    
+    color: #333;
+    border: 1px solid #6affa4;
+    box-shadow: 1px 1px 5px #6affa313;
+    border-radius: 8px;
+    padding: 12px;
+    transition: 0.4s all ease-in-out;
+}
+
+.box_ingredient:hover {
+    border: 1px solid black;
+
+}
+
+.box_ingredient h1 {
+    font-size: 18px;
+    text-align: center;
+    background-color: #6affa4;
+    border-radius: 12px;
+}
+
+.box_ingredient .list {
+    list-style-type: none;
+}
+
+.box_ingredient .list .item {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form_ingredient {
+    padding: 1.5em;
+}

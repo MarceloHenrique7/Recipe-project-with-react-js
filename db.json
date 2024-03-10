@@ -1,96 +1,126 @@
 {
-    "recipes": [
+  "recipes": [
+    {
+      "id": 1,
+      "owner": "Maria B.",
+      "name": "Shake Of banana with Milk",
+      "Description": "Recipe for grow-up your Muscles Super-Fit",
+      "image": "https://images.pexels.com/photos/556832/pexels-photo-556832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": {
+        "id": 14,
+        "name": "Fitness Food"
+      },
+      "ingredients": [
         {
-            "id": 1,
-            "owner": "Maria B.",
-            "name": "Shake Of banana with Milk",
-            "Description": "Recipe for grow-up your Muscles Super-Fit",
-            "image": "https://images.pexels.com/photos/556832/pexels-photo-556832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "category": {
-                "id": 14,
-                "name": "Fitness Food"
-            },
-
-            "ingredients": [
-                {"name": "Banana", "quantity": 100, "unit": "g"},
-                {"name": "Sugar", "quantity": 50, "unit": "g"},
-                {"name": "Milk", "quantity": 400, "unit": "ml"}
-            ],
-
-            "instructions": ""
+          "name": "Banana",
+          "quantity": 100,
+          "unit": "g"
         },
         {
-            "id": 2,
-            "owner": "Otavio Lucas",
-            "name": "Cake Of Chocolate",
-            "Description": "Recipe for grow-up your Muscles Super-Fit",
-            "image": "https://images.pexels.com/photos/1829423/pexels-photo-1829423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "category": {
-                "id": 14,
-                "name": "snacks"
-            },
-
-            "ingredients": [
-                {"name": "Banana", "quantity": 100, "unit": "g"},
-                {"name": "Sugar", "quantity": 50, "unit": "g"},
-                {"name": "Milk", "quantity": 400, "unit": "ml"}
-            ],
-
-            "instructions": ""
+          "name": "Sugar",
+          "quantity": 50,
+          "unit": "g"
         },
         {
-            "id": 3,
-            "owner": "Olivia",
-            "name": "Seasoned Pasta",
-            "Description": "Recipe for grow-up your Muscles Super-Fit",
-            "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "category": {
-                "id": 14,
-                "name": "Fitness Food"
-            },
-
-            "ingredients": [
-                {"name": "Banana", "quantity": 100, "unit": "g"},
-                {"name": "Sugar", "quantity": 50, "unit": "g"},
-                {"name": "Milk", "quantity": 400, "unit": "ml"}
-            ],
-
-            "instructions": ""
+          "name": "Milk",
+          "quantity": 400,
+          "unit": "ml"
         }
-
-    ],
-
-    "Categories": [
+      ],
+      "instructions": ""
+    },
+    {
+      "id": 2,
+      "owner": "Otavio Lucas",
+      "name": "Cake Of Chocolate",
+      "Description": "Recipe for grow-up your Muscles Super-Fit",
+      "image": "https://images.pexels.com/photos/1829423/pexels-photo-1829423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": {
+        "id": 14,
+        "name": "snacks"
+      },
+      "ingredients": [
         {
-            "id": 1,
-            "name": "Breakfast",
-            "path_image": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          "name": "Banana",
+          "quantity": 100,
+          "unit": "g"
         },
         {
-            "id": 7,
-            "name": "Lunches",
-            "path_image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          "name": "Sugar",
+          "quantity": 50,
+          "unit": "g"
         },
         {
-            "id": 8,
-            "name": "Afternoon snacks",
-            "path_image": "https://images.pexels.com/photos/372851/pexels-photo-372851.jpeg?auto=compress&cs=tinysrgb&w=600"
-        },
-        {
-            "id": 14,
-            "name": "Vitamins",
-            "path_image": "https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&w=600"
-        },
-        {
-            "id": 16,
-            "name": "Dinner",
-            "path_image": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600"
-        },
-        {
-            "id": 17,
-            "name": "snacks",
-            "path_image": "https://images.pexels.com/photos/1582482/pexels-photo-1582482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          "name": "Milk",
+          "quantity": 400,
+          "unit": "ml"
         }
-    ]
-    
+      ],
+      "instructions": ""
+    },
+    {
+      "id": 3,
+      "owner": "Olivia",
+      "name": "Seasoned Pasta",
+      "Description": "Recipe for grow-up your Muscles Super-Fit",
+      "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": {
+        "id": 14,
+        "name": "Fitness Food"
+      },
+      "ingredients": [
+        {
+          "name": "Banana",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "name": "Sugar",
+          "quantity": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Milk",
+          "quantity": 400,
+          "unit": "ml"
+        }
+      ],
+      "instructions": ""
+    },
+    {
+      "id": "7bd5"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Breakfast",
+      "path_image": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "name": "Lunches",
+      "path_image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 8,
+      "name": "Afternoon snacks",
+      "path_image": "https://images.pexels.com/photos/372851/pexels-photo-372851.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 14,
+      "name": "Vitamins",
+      "path_image": "https://images.pexels.com/photos/775030/pexels-photo-775030.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 16,
+      "name": "Dinner",
+      "path_image": "https://images.pexels.com/photos/1247677/pexels-photo-1247677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 17,
+      "name": "snacks",
+      "path_image": "https://images.pexels.com/photos/1582482/pexels-photo-1582482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
 }
